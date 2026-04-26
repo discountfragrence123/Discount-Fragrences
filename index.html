@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Fragrances - Premium Fragrance Samples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Discount Fragrances</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Premium Fragrances, Affordable Prices</h1>
+            <p>Discover luxury fragrance samples that everyone can enjoy</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="product-grid">
+                <!-- Versace Eros Product Card -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300?text=Versace+Eros" alt="Versace Eros">
+                    </div>
+                    <div class="product-info">
+                        <h3>Versace Eros</h3>
+                        <p class="size">0.03 oz Sample</p>
+                        <p class="description">A captivating fragrance for men. Fresh mint and apple notes with a powerful base of ambroxan and cedar.</p>
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(24 reviews)</span>
+                        </div>
+                        <div class="price-section">
+                            <span class="price">$2.99</span>
+                            <span class="original-price">$5.00</span>
+                        </div>
+                        <button class="add-to-cart" onclick="addToCart('Versace Eros 0.03oz', 2.99)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Discount Fragrances. All rights reserved.</p>
+            <p>Small samples of fragrances that are affordable and everyone can enjoy.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
